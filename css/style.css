@@ -1,0 +1,560 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+body {
+    margin: 0px;
+}
+
+.hero {
+    width: 73%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.hero-section-description {
+    float: left;
+    width: 60%;
+}
+
+.hero-section-description h1 {
+    font-size: 50px;
+}
+
+.hero-section-description p {
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: #4b5563;
+}
+
+.hero-section-img {
+    width: 35%;
+    float: right;
+}
+
+.hero-section-img img {
+    border-radius: 15px;
+    width: 90%;
+}
+
+.btn {
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.first-button {
+    background-color: black;
+    color: white;
+}
+
+.sec-button {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+
+.Why-Choose-section {
+    margin-top: 70px;
+}
+
+.sec-section-content {
+
+    text-align: center;
+}
+
+
+.why-choose {
+    width: 75%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.why-choose h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.choose-section-description {
+    color: #6b7280;
+    margin-bottom: 50px;
+}
+
+
+
+.features {
+    width: 95%;
+    font-size: 0;
+}
+
+
+
+.feature {
+    display: inline-block;
+    width: 31%;
+    margin: 0 1%;
+    padding: 35px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+
+
+.equipment {
+    background-color: #e2eeff;
+}
+
+.trainers {
+    background-color: #d4faeb;
+}
+
+.hours {
+    background-color: #f5e8ff;
+}
+
+
+
+.icon {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.equipment .icon {
+    background-color: #1769ef;
+}
+
+.trainers .icon {
+    background-color: #05976b;
+}
+
+.hours .icon {
+    background-color: #a000eb;
+}
+
+.icon-shape {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.trainers .icon-shape {
+    border-radius: 50%;
+}
+
+.feature h3 {
+    font-size: 19px;
+    color: #1f2937;
+    margin-bottom: 18px;
+}
+
+.feature p {
+    color: #4b5563;
+    font-size: 14px;
+}
+
+
+
+.more-than-gym {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.more-img {
+    margin-left: 60px;
+    width: 45%;
+    float: left;
+}
+
+.more-img img {
+    width: 80%;
+    display: block;
+    border-radius: 8px;
+}
+
+.gym-content {
+    width: 40%;
+    float: right;
+    margin-right: 135px;
+}
+
+.gym-content h2 {
+    margin-top: 0;
+}
+
+.gym-feature {
+    border-left: 3px solid #222;
+    padding-left: 18px;
+    margin-bottom: 20px;
+
+}
+
+.gym-feature h3 {
+    margin: 0 0 8px;
+}
+
+.gym-feature p {
+    margin: 0;
+}
+
+
+
+/* ----------------------------------testimonials---------------------------------- */
+
+.testimonials {
+    background-color: rgba(43, 72, 131, 0.039);
+    padding: 60px 0 80px;
+    text-align: center;
+    margin-top: 400px;
+
+}
+
+.testimonials-width {
+    width: 85%;
+    margin: auto;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    color: #1f2937;
+
+}
+
+.testimonials-description {
+    text-align: center;
+    margin-bottom: 60px;
+
+    margin-top: 100px;
+}
+
+
+
+.members {
+    width: 90%;
+    margin: auto;
+    font-size: 0;
+    text-align: center;
+}
+
+
+
+.member-card {
+    display: inline-block;
+    width: 31%;
+    margin: 0 1%;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+.david {
+    background-color: #f0f6ff;
+    border-color: #bfdbfe;
+}
+
+.mike {
+    background-color: #ecfdf5;
+    border-color: #a7f3d0;
+}
+
+.james {
+    background-color: #faf5ff;
+    border-color: #e9d5ff;
+}
+
+
+
+.member-info {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.member-info img {
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.member-details {
+    display: inline-block;
+    width: 75%;
+    padding-left: 12px;
+    vertical-align: middle;
+}
+
+.member-details h3 {
+    font-size: 16px;
+    margin: 0 0 5px;
+    color: #111827;
+}
+
+.member-details p {
+    font-size: 14px;
+    color: #4b5563;
+    margin: 0;
+}
+
+
+
+.review {
+    font-size: 15px;
+    color: #374151;
+    margin: 0;
+}
+
+
+
+.statistics {
+    width: 88%;
+    margin: 60px auto 0;
+    padding: 40px 0;
+    background-color: #f3f7ff;
+    border: 1px solid #dbe4f0;
+    border-radius: 12px;
+}
+
+.statistics table {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+.statistics h2 {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.statistics p {
+    font-size: 14px;
+    color: #4b5563;
+    margin: 0;
+}
+
+/*                               */
+
+/* Section */
+
+.join-section {
+    width: 100%;
+    padding: 60px 5%;
+    text-align: center;
+    background-color: white;
+}
+
+.join-section h2 {
+    font-size: 32px;
+    color: #111827;
+    margin: 0 0 20px;
+}
+
+.join-description {
+    color: #4b5563;
+    margin-bottom: 40px;
+}
+
+/* Form */
+
+.join-form {
+    width: 50%;
+    margin: auto;
+    padding: 35px;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    text-align: left;
+}
+
+/* First and Last Name */
+
+.name-row {
+    width: 100%;
+    font-size: 0;
+}
+
+.name-field {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.name-field:first-child {
+    margin-right: 4%;
+}
+
+
+
+.form-field {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+
+
+.join-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #111827;
+}
+
+
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+    display: block;
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+
+
+
+.join-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-note {
+    margin: 20px 0 0;
+    text-align: center;
+    color: #4b5563;
+    font-size: 12px;
+}
+
+/* ---------------------------------- */
+
+.footer-container {
+    background-color: #0b1325;
+    color: #a3b1cc;
+    padding: 60px 0px 20px 40px;
+
+
+}
+
+.footer-content {
+    width: 70%;
+    margin: auto;
+}
+
+.footer-section {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    display: block;
+}
+
+.footer-section.contact {
+    margin-right: 0;
+}
+
+
+
+.footer-logo {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    display: block;
+}
+
+.footer-section h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    display: block;
+}
+
+.footer-text {
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+    display: block;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.footer-section ul li {
+    margin-bottom: 12px;
+    display: block;
+}
+
+.footer-section a {
+    color: #a3b1cc;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.social-links a {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.contact-label {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 15px 0 2px 0;
+}
+
+.contact-value {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.footer-bottom {
+    width: 70%;
+    margin: 40px auto 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #1e293b;
+}
+
+.copyright {
+    float: left;
+    font-size: 12px;
+}
+
+.bottom-links {
+    float: right;
+}
+
+.bottom-links a {
+    color: #a3b1cc;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+    display: inline-block;
+}
