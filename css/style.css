@@ -90,7 +90,6 @@ body {
 
 .features {
     width: 95%;
-    font-size: 0;
 }
 
 
@@ -208,7 +207,7 @@ body {
 
 
 
-/* ----------------------------------testimonials---------------------------------- */
+
 
 .testimonials {
     background-color: rgba(43, 72, 131, 0.039);
@@ -241,7 +240,6 @@ body {
 .members {
     width: 90%;
     margin: auto;
-    font-size: 0;
     text-align: center;
 }
 
@@ -286,14 +284,11 @@ body {
     display: inline-block;
     width: 20%;
     border-radius: 50%;
-    vertical-align: middle;
 }
 
 .member-details {
     display: inline-block;
-    width: 75%;
     padding-left: 12px;
-    vertical-align: middle;
 }
 
 .member-details h3 {
@@ -347,9 +342,6 @@ body {
     margin: 0;
 }
 
-/*                               */
-
-/* Section */
 
 .join-section {
     width: 100%;
@@ -369,7 +361,7 @@ body {
     margin-bottom: 40px;
 }
 
-/* Form */
+
 
 .join-form {
     width: 50%;
@@ -380,7 +372,7 @@ body {
     text-align: left;
 }
 
-/* First and Last Name */
+
 
 .name-row {
     width: 100%;
@@ -450,7 +442,7 @@ body {
     font-size: 12px;
 }
 
-/* ---------------------------------- */
+
 
 .footer-container {
     background-color: #0b1325;
